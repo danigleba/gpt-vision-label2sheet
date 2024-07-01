@@ -4,8 +4,8 @@ import { useState } from "react"
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [selectedFile, setSelectedFile] = useState(null);
-  const [base64Image, setBase64Image] = useState('');
+  const [selectedFile, setSelectedFile] = useState(null)
+  const [base64Image, setBase64Image] = useState('')
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
